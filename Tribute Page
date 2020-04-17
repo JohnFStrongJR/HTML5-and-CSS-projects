@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, intial-scale=1">
+<style>
+	body {
+		background: gray;
+		text-align: center;
+		margin: 10px;
+	}
+	ul {
+		border: 10px;
+		border-style: solid;
+		list-style-position: inside;
+		font-size: 20px;
+	}
+	img {
+		width: 100%;
+		height: auto;
+		max-width: 625px;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+	h1{
+		background: teal;
+	}
+	p {
+		font-size: 18px;
+	}
+	figure {
+		background: white;
+		margin: 10px;
+	}
+</style>
+</head>
+	<body>
+		<main id="main">
+			<h1 id="title"> Alan Turing</h1>
+			<p>The father of the computer</p>
+			<figure id="img-div">
+				<img id="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Bombe-rebuild.jpg/220px-Bombe-rebuild.jpg" alt="A working replica of the Bombe that Turing built to crack the enigma.">
+				<figcaption id="img-caption">
+				A working replica of the Bombe that Turing built to crack the enigma.
+				</figcaption>
+			</figure>
+			<section id="tribute-info">
+				<h3 id="headline"> Timeline of Dr. Turing's life:
+				</h3>
+				<div>
+				<ul>
+					<li>
+						<strong>1912</strong>
+						Alan Mathison Turing was born in Maida Vale, London.
+					</li>
+					<li>
+						<strong>1927</strong>
+						Alan furthered his love of science by reading Einstein whilst at Sherborne.
+					</li>
+					<li>
+						<strong>1934</strong>
+						Alan graduates with distinction in Mathematics from King's College, Cambridge
+					</li>
+					<li>
+						<strong>1938</strong>
+						Alan goes to Princeton University to study mathematics and is awarded a PhD.
+					</li>
+					<li>
+						<strong>1939</strong>
+						Alan is asked to join the governemnt Codes and Ciphers school and arrives the day after war is delcared.
+					</li>
+					<li>
+						<strong>1940</strong>
+						Alan develops the Bombe with Gordon Welchman to decipher messages sent by the Germans using the Enigma machine.
+					</li>
+					<li>
+						<strong>1943</strong>
+						Alan works with top people in the U.S. while visiting to share information on code breaking.
+					</li>
+					<li>
+						<strong>1945</strong>
+						Alan is awarded the OBE for his wartime services.
+					</li>
+					<li>
+						<strong>1946</strong>
+						Alan publishes a paper with the first design of a stored-program computer.
+					</li>
+					<li>
+						<strong>1949</strong>
+						Alan is made deputy director of the Computing Labratory at Manchester University.
+					</li>
+					<li>
+						<strong>1950</strong>
+						Alan publishes the famous paper 'Computer Machinery and Intelligence' in which he develops the Turing Test.
+					</li>
+					<li>
+						<strong>1951</strong>
+						Alan is elected Fellow of the Royal Society, and also gives talks about Artificial Intelligence on the BBC.
+					</li>
+					<li>
+						<strong>1952</strong>
+						Alan is arrested for gross indecency. He loses his security clearance and cannot work. He is offered chemical treatment instead of going to prison, this treatment makes him very unwell.
+					</li>
+					<li>
+						<strong>1954</strong>
+						Alan dies in his home. He is found poisoned with a half eaten apple next to him laced with cyanide.
+					</li>
+				</ul>
+				</div>
+				<h3>
+				If you have time, go read more about his eventful life on his
+				<a id="tribute-link" href="https://en.wikipedia.org/wiki/Alan_Turing" target="_blank">Wikipedia page</a>.
+		</main>
+	</body>
+
+
+
+
+
+</html>
