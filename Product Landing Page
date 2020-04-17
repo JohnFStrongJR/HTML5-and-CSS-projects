@@ -1,0 +1,112 @@
+<html>
+<style>
+
+iframe {
+  align-tems:center;
+}
+
+#about-us{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20em;
+  font-size: 20px;
+}
+
+
+#services {
+  align-items: center;
+  display: flex;
+  flex-direction:column;
+}
+main {
+  background-color: silver;
+  width: 100%;
+}
+  header{
+    position: fixed;
+    background-color: grey;
+    width: 100%;
+    padding: 1em;
+    color: white;
+  }
+#header-img {
+  height: 35px;
+  width:300px;
+  float: left;
+  padding-top:2em;
+}
+  nav ul {
+    float:right;
+    margin-right: 2em;
+  }
+nav li {
+  display: inline;
+  padding: 1em;
+  display:inline-block;
+}
+  .container {
+    margin:20px;
+    padding:20px;
+  }
+  body {
+    display: flex;
+    position: center;
+  }
+@media (max-width: 550px ){
+  h1 {
+    font-size: 1.25em;
+  }
+}
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+</style>
+
+
+<header id="header">
+  <img src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" alt="logo" id="header-img">
+  <nav id="nav-bar">
+    <ul>
+      <li><a href="#about-us" class="nav-link">About us</a></li>
+      <li><a href="#services" class="nav-link">Services</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+<main>
+  <section id="about-us">
+    <h1> Strong Consulting</h1>
+    <p>Delivering professional and smooth designs</p>
+  </section>
+  
+  
+  <section id="services">
+    <h1>What we offer</h1>
+    <ul>
+      <li>Systems Administration</li>
+      <li>Network Administration</li>
+      <li>Disaster Recovery</li>
+      <li>Cloud Migrations</li>
+      <li>Web Development</li>
+    </ul>
+    <iframe id="video" width="550" height="315" src="https://www.youtube.com/watch?v=oYIGc5yA37I" frameborder="0" allow="autoplay; encrypted-media" autoplay="1" allowfullscreen></iframe>
+  </section>
+  
+  <div id="contact">
+    <h1>Contact Us</h1>
+    <form id="form" action="https://wwww.freecodecamp.com/email-submit">
+      <input id="email" type="email" name="email" placeholder="enter your email here.." required>
+      <input type="submit" id="submit" placeholder="Submit"></input>
+    </form>
+  </div>
+</main>
+</html>
